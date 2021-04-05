@@ -1,0 +1,41 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+    max-width: 960;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.social_media{
+    display: flex;
+    max-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media_item{
+    display: inline-flex;
+    align-items:center;
+    padding: 16px;
+    width: fit-content;
+}
+
+.social_media_icon{
+    max-height: 30px;
+    padding-right: 8px;
+}
+
+#matthew_rine_name{
+    font-size: 100px;
+    font-weight: 300;
+    width: fit-content;
+    align-self: center;
+}
